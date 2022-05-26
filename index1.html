@@ -1,0 +1,56 @@
+
+<script>
+    if (confirm('Доброго времени суток, у этой страницы есть к вам вопрос, вы готовы ответить?'))
+    { var a = prompt('Введите первое число');
+    alert("a = "+a)
+    var b = prompt('Введите второе число')
+    alert("b = "+b)
+    var admin = "Айлана"
+    var name = admin
+    alert("Админ -"+admin)}
+    function max(a, b)
+    {
+    if (a > b)
+    return a
+    else
+    return b;
+    }
+    alert(max(a,b));
+    </script>
+    <script>
+        if (confirm('Здравствуйте')){
+        while (1) {
+        var age = prompt('Ваш возраст?');
+        if (confirm('Вы уверены, что вам '+age ))
+        break;
+        }
+        alert("Вам "+ age + " года/лет " )
+        }
+        </script>
+        <body>
+            <h1>Резюме</h1> 
+            <h2>Новиков Даниил</h2> 
+           <p class="learned-ok">Образование - неполное высшее</p>
+           <p class="learned-ok">Личные качества - быстро адаптируюсь, дружелюбный.</p>
+           <p class="learned-ok">желаемая зарплата - 100000р.</p>
+           <p class="learned-ok">опыт работы - нет опыта.</p>
+           <p class="learned-ok">Контактная информация - novikov.daniil.nikolaevich@gmail.com.</p>
+           <p class="learning-in-progress">умения -  ремонтирую различные девайсы.</p>
+           </body>
+           <style>
+           body {
+           font-family: 'Times New Roman', Times, serif, serif;
+           }
+           h1 {
+           color: #ff000072;
+           }
+           h2 {
+           color: #0048ff72;
+           }
+           .learned-ok {
+           color: rgb(95, 15, 194);
+           }
+           .learning-in-progress {
+           color: rgba(95, 15, 194, 0.901);
+           }
+           </style>
